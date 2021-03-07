@@ -1,0 +1,53 @@
+.main-title-appear{
+    opacity: 0;
+    transform: translateX(-10%);
+}
+
+.main-title-appear-active{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 500ms linear;
+}
+
+.filter-enter{
+    opacity: 0;
+    height: 50%;
+    width: 200px;
+}
+.filter-enter-active{
+    opacity: 1;
+    height: 100%;
+    width: 400px;
+    transition: all 250ms linear;
+}
+.filter-exit{
+    opacity: 1;
+    height: 100%;
+    width: 400px;
+    transition: all 250ms linear;
+
+}
+.filter-exit-active{
+    opacity: 0;
+    height: 50%;
+    width: 200px;
+}
+
+.error-enter{
+    opacity: 0;
+    transform: translateX(50%);
+}
+.error-enter-active{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 250ms linear;
+}
+.error-exit{
+    opacity: 1;
+    transform: translateX(0);
+}
+.error-exit-active{
+    opacity: 0;
+    transform: translateX(50%);
+    transition: all 250ms linear;
+}
